@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 2em;
+    margin: 40px 0px 40px 20px;
+}
+
+.container {
+    width: 70%;
+}
+
+/* navbar section */
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #1b4965;
+    color: #cae9ff;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    font-size: 1.8em;
+    width: 50%;
+}
+
+.nav-item {
+    margin: 25px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    color: #cae9ff;
+    padding: 2px;
+}
+
+.nav-link:hover {
+    border-bottom: #589EC6 solid 2px;
+
+    transform: scale(2.0);
+    transition: 50ms;
+    color: #589EC6;
+}
+
+/* Showcase Section */
+.showcase {
+    height: 600px;
+    width: 100%;
+    background-color: #E5F4FF;
+    color: #1b4965;
+    align-items: center;
+}
+
+.showcase .container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 3%;
+}
+
+.showcase .heading {
+    font-size: 2.3em;
+    margin-bottom: 0;
+}
+
+.showcase-text {
+    font-size: 1.2em;
+    margin: 20px 0 60px 20px;
+}
+
+.cta {
+    height: 80px;
+    width: 180px;
+    margin: 20px;
+    border: none;
+    background-color: #589EC6;
+    color: #cae9ff;
+    font-size: 1.2em;
+    border-radius: 25%;
+    padding: 20px
+}
+
+.cta:hover {
+    background-color: #1b4965;
+}
+
+.showcase-img {
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 25px #1b4965;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+
+/* Why us Section */
+
+.why-us {
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    color: #1b4965;
+}
+
+.why-us-body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px 20px;;
+}
+
+.why-us-item {
+    margin: 10px 20px;
+}
+
+.why-us-item h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+.why-us-item p {
+    margin: 5px 0;
+}
+
+.line {
+    height: 2px;
+    width: 170px;
+    background-color: #589ec6;
+}
+
+/* Services Section */
+
+.services{
+    height: 800px;
+    width: 100%;
+    background-color: #E5F4FF;
+    color: #1b4965;
+}
+
+.services-body{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    margin: 60px 0 40px 40px;
+}
+
+.card{
+    height: 250px;
+    background-color: rgb(245, 248, 255);
+    box-shadow: 2px 2px 15px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card-txt {
+    position: relative;
+    left: 10px;
+    margin: 20px 0 10px 0;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+
+/* Hire Section */
+
+.hire {
+    height: 450px;
+    width: 100%;
+}
