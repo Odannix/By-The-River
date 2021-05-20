@@ -198,6 +198,24 @@ li {
     width: 50px;
 }
 
+.card-btn {
+    height: 3rem;
+    width: 6rem;
+    background-color: #0075e3;
+    margin-top: 15px;
+    padding: 2px;
+    border: #cfe8ff solid 1px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 10px #003261;
+    color: #fff;
+}
+
+.card-btn:hover {
+    background-color: #003261;
+    transform: scale(1.1);
+    transition: 25ms;
+}
+
 /* Hire Section */
 
 .hire {
